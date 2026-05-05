@@ -22,7 +22,7 @@ namespace CGoL_Set_Alive
             _grid.LoadPattern("block", 22, 23);
             this.ClientSize = new Size(_grid.Width * 20, _grid.Height * 20);
             _timer = new System.Windows.Forms.Timer();
-            _timer.Interval = 100;
+            _timer.Interval = 99;
             _timer.Tick += OnTick;
             //_timer.Start();
             this.DoubleBuffered = true;
